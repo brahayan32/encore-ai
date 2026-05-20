@@ -72,14 +72,14 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Pulse · Plataforma Inteligente de Conciertos con IA" },
+      { name: "description", content: "Ecosistema todo-en-uno con IA: entradas, vuelos, hoteles, rutas inteligentes y experiencias personalizadas para conciertos." },
+      { name: "author", content: "Pulse" },
+      { property: "og:title", content: "Pulse · Conciertos con IA" },
+      { property: "og:description", content: "Compra entradas, organiza tu viaje y vive el concierto con un copiloto IA." },
       { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:site", content: "@pulse" },
     ],
     links: [
       {
